@@ -36,7 +36,7 @@ aside {
   height: 100vh;
   margin-bottom: 10rem;
 
-  font-family: "Roboto Condensed";
+  
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -76,9 +76,10 @@ aside {
 }
 
 .title-login {
-  margin-right: 100px;
-  margin-bottom: 10px;
-  font-family: "Roboto Condensed";
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 5px;
   font-style: normal;
   font-weight: 400px;
   font-size: 24px;
@@ -90,8 +91,8 @@ input {
   width: 250px;
   height: 30px;
   background: #efefef;
-  border-radius: 5px;
-  font-family: "roboto";
+  border-radius: 15px;
+  
   margin-bottom: 5px;
 }
 
@@ -101,11 +102,12 @@ input:hover {
 
 button {
   width: 280px;
-  height: 30px;
+  height: 40px;
   background: #efefef;
   border-radius: 5px;
   margin-bottom: 5px;
   cursor: pointer;
+  border-radius: 15px;
 }
 
 button:hover {
@@ -113,11 +115,15 @@ button:hover {
 }
 
 h5 {
-  font-family: "Roboto Condensed";
+ 
   font-style: normal;
   font-weight: 400px;
   font-size: 15px;
   line-height: 28px;
   color: #ffffff;
   margin-bottom: 5px;
+}
+
+.qrcode{
+  margin-top: 15px;
 }
